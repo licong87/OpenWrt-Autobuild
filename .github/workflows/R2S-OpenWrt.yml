@@ -9,8 +9,8 @@ on:
       - 'SEED/R2S/config.seed'
       - 'SCRIPTS/switch'
       - 'SCRIPTS/R2S/02_prepare_package.sh'
- # watch:
- #   types: [started]
+  watch:
+    types: [started]
 
 jobs:
   build:
